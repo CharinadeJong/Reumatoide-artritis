@@ -1,4 +1,4 @@
-# Reumatoide-artritis
+# Transcriptomics analyse reumatoide-artritis
 Transcriptomics analyse in R van eiwit-gerelateerde genexpressie in reumatoïde artritis versus gezonde controles
 
 # Introductie
