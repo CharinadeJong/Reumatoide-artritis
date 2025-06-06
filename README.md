@@ -7,11 +7,11 @@ Reumatoïde artritis (RA) is een chronische auto-immuun ontstekingsziekte en bre
 # Methode
 **Synoviale weefselmonsters**
 
-De RNA-seq-gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek (Platzer et al., 2019). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
+De RNA-sequnce gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek (Platzer et al., 2019). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
 
 **Data analyse**
 
-Data analyse werdt uitgveoerd in R studio. Reads werden gemapt tegen het humane referentiegenoom GRCh38 met behulp van de align() functie uit de Rsubread package. Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de DESeq2 package. Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. GO-enrichment analyse werdt vervolgens uitgevoerd met het package clusterProfiler en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package ggplot2. Om inzicht te krijgen van de belangerijkste genen werden de twee belanegrijkste GO-termen genalyseerd met een KEGG-analyse met de package KEGGREST. 
+Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom GRCh38 met behulp van de align() functie uit de Rsubread package. Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de DESeq2 package. Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. GO-enrichment analyse werdt vervolgens uitgevoerd met het package clusterProfiler en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package ggplot2. Om inzicht te krijgen van de belangrijkste genen werden de twee belangrijkste GO-termen geanalyseerd met een KEGG-analyse met de package KEGGREST.
 
 # Resultaten 
 **Gene Ontology (GO)**
