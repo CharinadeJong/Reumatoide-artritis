@@ -22,5 +22,10 @@ De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weerg
 width = "600"/>
 </p>
 
+<p align ="left">
+<img src = "resultaten/hsa04660_pathview.png" alt = "hsa04660_pathview"
+width = "600"/>
+</p>
+
 
 # conclusie 
