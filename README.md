@@ -24,7 +24,7 @@ width = "600"/>
 
 <p align ="left">
 <img src = "resultaten/hsa04660_pathview.png" alt = "hsa04660_pathview"
-width = "600"/>
+width = "800"/>
 </p>
 
 
