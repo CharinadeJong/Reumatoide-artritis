@@ -11,16 +11,16 @@ De RNA-sequnce gegevens van de synovium biopten werden verkregen uit eerder uitg
 
 **Data analyse**
 
-Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom GRCh38 met behulp van de align() functie uit de Rsubread package. Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de DESeq2 package. Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. GO-enrichment analyse werdt vervolgens uitgevoerd met het package clusterProfiler en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package ggplot2. Om inzicht te krijgen van de belangrijkste genen werden de twee belangrijkste GO-termen geanalyseerd met een KEGG-analyse met de package KEGGREST.
+Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom GRCh38 met behulp van de align() functie uit de Rsubread package, te zien in script_mappen. Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de DESeq2 package, te zien in script_DESeqanalyse. Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. GO-enrichment analyse werdt vervolgens uitgevoerd met het package clusterProfiler en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package ggplot2, te zien in script_GO_analyse. Om inzicht te krijgen in de pathway van de belangrijkste genen werd er uit de belangrijkste GO-term een KEGG-analyse uiigevoerd met de package KEGGREST, te zien in script_KEGG_analyse. Voor het kiezen van een KEGG id is een DAVID analyse uitegevoerd met behulp van de DAVID bioinformatics van NIH. De meest significante genen uit de nummer 1 GO-term werd genanalyseerd en verwerkt tot een lijst met de pathways waarin de meeste van deze genen voorkomen.  
 
 # Resultaten 
 **Gene Ontology (GO)**
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/go_termen.png). Hier in is te zien dat voornamelijk verhoogde expressie van genen leiden tot verschillen in biologische processen
 
-<p align ="left">
-<img src = "resultaten/go_termen.png" alt = "Top 5 GO-termen verlaagde en verhoogde expressie uitgezet in een barplot. X-as weergeeft de -10log (p.adjust), Y-as de GO-teremen"
-width = "600"/>
-</p>
+<figure style="text-align: left;">
+  <img src="resultaten/go_termen.png" alt="Top 5 GO-termen verlaagde en verhoogde expressie uitgezet in een barplot. X-as weergeeft de -10log (p.adjust), Y-as de GO-teremen" width="600">
+  <figcaption style="font-size: 0.7em; margin-top: 4px;">Dit is het bijschrift bij de afbeelding.</figcaption>
+</figure>
 
 <p align ="left">
 <img src = "resultaten/hsa04660_pathview.png" alt = "hsa04660_pathview"
