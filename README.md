@@ -23,10 +23,17 @@ De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weerg
   <figcaption style="font-size: 0.7em; margin-top: 4px;"> Top 5 GO-termen met verhoogde en verlaagde expressie in genen uitgezet in een staafdiagram. Op de x-as het aantal genen per GO-termen. P. ajdust aangegeven met kleuren.  </figcaption>
 </figure>
 
+
+<p align ="left">
+<img src = "resultaten/top_5GOtermen_ratio.png" alt = "hsa04660_pathview"
+width = "600"/>
+</p>
+
 <p align ="left">
 <img src = "resultaten/hsa04660_pathview.png" alt = "hsa04660_pathview"
 width = "600"/>
 </p>
+
 
 
 # conclusie 
