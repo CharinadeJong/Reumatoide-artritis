@@ -49,8 +49,28 @@ top10_low <- GO_df_low %>%
 # 📊 Visualisatie
 ggplot(top10_high, aes(x = reorder(Description, p.adjust), y = -log10(p.adjust))) +
   geom_col(fill = "steelblue") +
-  labs(title = "Top 10 GO-termen (verhoogde expressie)", x = "GO-term", y = "-log10(p.adjust)")
+  labs(title = "Top 5 GO-termen (verhoogde expressie)", x = "GO-term", y = "-log10(p.adjust)")
 
 ggplot(top10_low, aes(x = reorder(Description, p.adjust), y = -log10(p.adjust))) +
   geom_col(fill = "firebrick") +
-  labs(title = "Top 10 GO-termen (verlaagde expressie)", x = "GO-term", y = "-log10(p.adjust)")
+  labs(title = "Top 5 GO-termen (verlaagde expressie)", x = "GO-term", y = "-log10(p.adjust)")
+
+dotplot(GOresults_high, showCategory = 10) + 
+  theme(axis.text.y = element_text(size = 10))
+
+
+dotplot(GOresults_high, showCategory = 5) + 
+  theme(axis.text.y = element_text(size = 10))
+
+barplot_low <- barplot(GOresults_low, showCategory = 5) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 5), axis.text.y = element_text(size = 10)) + 
+  scale_fill_gradientn(colors = c("mediumorchid4", "#CD1076","#ae017e", "#c51b8a","#dd3497","#FF1493","#fa9fb5", "#fbb4d9"), name = "p.adjust" ) + 
+  labs( title = "top 5 GO-termen verlaagd🔬", y = "GO-termen") 
+
+barplot_high <- barplot(GOresults_high, showCategory = 5) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 5), axis.text.y = element_text(size = 10)) + 
+  scale_fill_gradientn(colors = c("#68228B","#ae017e", "#c51b8a","#dd3497","#FF1493","#fa9fb5", "#fbb4d9"), name = "p.adjust" ) + 
+  labs( title = "top 5 GO-termen verhoogd🔬", y = "GO-termen") 
+
+combinedplot <- barplot_high/barplot_low
+combinedplot
