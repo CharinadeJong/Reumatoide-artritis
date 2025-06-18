@@ -16,7 +16,7 @@ Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand
 
 # Resultaten 
 **Gene Ontology (GO)**
-De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). Hier in is te zien dat voornamelijk verhoogde expressie van genen leiden tot verschillen in biologische processen.
+De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). 
 
 <figure style="text-align: left;">
   <img src="resultaten/Top5_GOtermen.png" alt="Top 5 GO-termen verlaagde en verhoogde expressie uitgezet in een barplot. X-as weergeeft de -10log (p.adjust), Y-as de GO-teremen" width="600">
