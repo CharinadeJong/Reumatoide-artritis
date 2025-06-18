@@ -91,25 +91,10 @@ names(gene_vector) <- rownames(resultaten)
 
 pathview(
   gene.data = gene_vector,
-  pathway.id = "hsa05323",  # KEGG ID voor Biofilm formation – E. coli
-  species = "hsa",          # 'eco' = E. coli in KEGG
-  gene.idtype = "SYMBOL"  # Kleurbereik voor log2FC van -5 tot +5
+  pathway.id = "hsa05323",  
+  species = "hsa",          
+  gene.idtype = "SYMBOL"  
 )
-
-
-# 4. Genereer het PNG-bestand voor de TCA-cyclus
-pathview(
-  gene.data = gene_vector,
-  pathway.id = "eco02026",  # KEGG ID voor Biofilm formation – E. coli
-  species = "eco",          # 'eco' = E. coli in KEGG
-  gene.idtype = "KEGG",     # Geef aan dat het KEGG-ID's zijn
-  limit = list(gene = 5), out.suffix = "TCA_cycle"    # Kleurbereik voor log2FC van -5 tot +5
-)
-
-#Met de functie keggLink() uit het KEGGREST-pakket kun je in R koppelingen
-#leggen tussen genen en pathways in de KEGG-database.
-
-keggLink("pathway", "eco:b0221")
 
 
 # Zoek pathways waarin een humaan gen voorkomt (bijv. hsa:7157 = TP53)
