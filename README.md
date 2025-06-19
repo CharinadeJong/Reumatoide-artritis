@@ -14,6 +14,8 @@ De RNA-sequnce gegevens van de synovium biopten werden verkregen uit eerder uitg
 
 Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom GRCh38 met behulp van de align() functie uit de `Rsubread (V2.22.1)` package, te zien in [script_mappen](scripts/mapping_day_1.R). Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de `DESeq2 (V1.48.1)` package, te zien in [script_DESeqanalyse](scripts/Analyse_en_statistiek_day_3.R). Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. GO-enrichment analyse werd vervolgens uitgevoerd met het package `clusterProfiler (V4.16.0)` en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package `ggplot2 (V3.5.2)`, te zien in [script_GO_analyse](scripts/GO_analysis_script.R). Om inzicht te krijgen in de pathway van de meest verijkte GO-term werd er  een KEGG-analyse uitgevoerd met de package `KEGGREST (V1.48.0)`, te zien in [script_KEGG_analyse](scripts/Analyse_en_statistiek_day_3.R). Om de KEGG-pathways te identificeren waarin de genen uit de GO-term het meest verrijkt zijn werd er een DAVID analyse uitgevoerd, met behulp van de DAVID bioinformatic tool van NIH.
 
+Toevoegen plaatje workflow
+
 # Resultaten 
 **Gene Ontology (GO)**
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). 
