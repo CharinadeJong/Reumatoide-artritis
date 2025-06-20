@@ -2,7 +2,7 @@
 Transcriptomics analyse in R van eiwit-gerelateerde genexpressie in reumatoïde artritis versus gezonde controles 
 
 <figure style="text-align: center;">
-  <img src="afbeelding_voorblad/normal_vs_reuma.png" alt="Afbeelding voorblad" width="800" style="margin: auto; display: block;">
+  <img src="afbeeldingen/normal_vs_reuma.png" alt="Afbeelding voorblad" width="800" style="margin: auto; display: block;">
 </figure>
 
 [(Ding. et al., 2023)](bronnen/ding_etal_2023.pdf)
