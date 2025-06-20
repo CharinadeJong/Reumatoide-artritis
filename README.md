@@ -3,8 +3,9 @@ Transcriptomics analyse in R van eiwit-gerelateerde genexpressie in reumatoïde 
 
 <figure style="text-align: center;">
   <img src="afbeelding_voorblad/normal_vs_reuma.png" alt="Afbeelding voorblad" width="800" style="margin: auto; display: block;">
-  <figcaption style="font-size: 0.7em; margin-top: 4px;">(Ding et al., 2023)</figcaption>
 </figure>
+
+[(Ding. et al., 2023)](bronnen/ding_etal_2023.pdf)
 
 
 
