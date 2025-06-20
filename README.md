@@ -27,7 +27,7 @@ Data analyse van de gegevens werd uitgevoerd in `R studio (R4.5.0)`. Reads zijn 
 
 **DESeq analyse**
 
-Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in de volcanoplot. Log2 fold change op de x- as uitgezet tegen -Log₁₀ P op de y-as. Rode genen gaven een significante p-waarde en verandering in gen expressie aan. De rood gekleurde genen uit de volcano plot en hun functie staan in tabel 1.
+Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in [de volcanoplot](resultaten/volcano_plot.png). Log2 fold change op de x- as uitgezet tegen -Log₁₀ P op de y-as. Rode genen gaven een significante p-waarde en verandering in gen expressie aan. De rood gekleurde genen uit de volcano plot en hun functie staan in tabel 1.
 
 *Tabel 1; top 5 meest significante genen uit de volcano plot. Gebasseerd op een hoge count, een hoge fold enrichment en een lage p.adjust en p-value. Functie van genen wordt weergeven.* 
 
