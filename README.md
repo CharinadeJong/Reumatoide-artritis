@@ -39,7 +39,7 @@ Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in [de vo
 | 4    | CROCC     | Belangrijk voor cohesie van het centrosoom tijdens celdeling [(Criscitiello. et al., 2020)](Criscitiello_etal_2020.pdf). |
 | 5    | IKBKG     | Mogelijke activator van activation process of NF-κB signaling [(Wu. et al., 2021)](Wu_etal_2021.pdf). |
 
-De pathways waarin de meeste genen uit DESeq analyse voorkwamen zijn te zien in de dotplot. Op de y-as de verrijkte biologische pathways en op de y-as de genratio. NF-kappa B signaling pathway werd als meest belangrijke pathway geselecteerd, op basis van een hoge gen telling, hoge fold enrichment en een lage p.adjust en p-value.
+De pathways waarin de meeste genen uit DESeq analyse voorkwamen zijn te zien in [de dotplot](resultaten/kegg_pathway_enrichment.png). Op de y-as de verrijkte biologische pathways en op de y-as de genratio. NF-kappa B signaling pathway werd als meest belangrijke pathway geselecteerd, op basis van een hoge gen telling, hoge fold enrichment en een lage p.adjust en p-value.
 
 **NF-kappa B signaling pathway**
 
