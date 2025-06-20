@@ -33,11 +33,11 @@ Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in de vol
 
 | Rang | Gen       | Functie / Betekenis |
 |------|-----------|---------------------|
-| 1    | ANKRD30BL | Mogelijk betrokken bij signaaltransductie en celprocessen (Almeida. et al., 2020) |
-| 2    | MT-ND6    | Onderdeel van mitochondriaal complex I, essentieel voor energieproductie (Wright. et al., 2021). |
-| 3    | ZNF598    | Speelt een rol in kwaliteitscontrole van ribosomen (Sundaramoorthy. et al., 2017). |
-| 4    | CROCC     | Belangrijk voor cohesie van het centrosoom tijdens celdeling (Criscitiello. et al., 2020). |
-| 5    | IKBKG     | Mogelijke activator van activation process of NF-κB signaling (Wu. et al., 2021). |
+| 1    | ANKRD30BL | Mogelijk betrokken bij signaaltransductie en celprocessen [(Almeida. et al., 2020)] |
+| 2    | MT-ND6    | Onderdeel van mitochondriaal complex I, essentieel voor energieproductie [(Wright. et al., 2021)]. |
+| 3    | ZNF598    | Speelt een rol in kwaliteitscontrole van ribosomen [(Sundaramoorthy. et al., 2017)] |
+| 4    | CROCC     | Belangrijk voor cohesie van het centrosoom tijdens celdeling [(Criscitiello. et al., 2020)]. |
+| 5    | IKBKG     | Mogelijke activator van activation process of NF-κB signaling [(Wu. et al., 2021)]. |
 
 De pathways waarin de meeste genen uit DESeq analyse voorkwamen zijn te zien in de dotplot. Op de y-as de verrijkte biologische pathways en op de y-as de genratio. NF-kappa B signaling pathway werd als meest belangrijke pathway geselecteerd, op basis van een hoge gen telling, hoge fold enrichment en een lage p.adjust en p-value.
 
