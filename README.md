@@ -49,6 +49,7 @@ De genen uit de NF-kappa B signaling pathway werden gevisualiseerd in een signaa
 
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in [de barplot](resultaten/Top5_GOtermen.png). De GO term *immune response-regulating cell surface receptor signaling pathway* bleek het meest verrijkt te zijn met een verhoogde expressie van genen. Literatuur toont aan dat CD4+, T-cellen en pathogene B-cellen autoreactief reageren bij RA patiënten (Jang. et al., 2022). Een verlaagde expressie van genen werd het meest aangetroffen in de GO-term *pattern specification process*. Literatuur toont ook aan dat RA invloed heeft op signaalroutes afhankelijke processen voor het vormen van hyperplastisch synovium, kraakbeenschade en boterosie [(Guo. et al., 2018)](bronnen/Guo_etal_2018.pdf).
 
-# conclusie 
+# Conclusie 
 Uit dit onderzoek bleek dat er een aanwezigheid is van significante veranderingen in genexpressie bij reumatoïde artritis (RA) , zoals bij ontstekingsroutes zoals de NF-kappa B signaling pathway. De GO-enrichment analyse toonde een verlaagde genexpressie binnen de *pattern specification process pathway* en een verhoogde gen expressie binnen de *immune response-regulating cell surface receptor signaling pathway*. De expressie van significante genen zoals IKBKG, RELA en NFKB1 kan mogelijk gebruikt worden als potentiële bio markers of als doel voor geneesmiddelen. Verdere onderzoek met een groter aantal proefpersonen naar de GO-teremen en significante genen is nodig.
 
+# [Referenties](bronnen/litertuurlijst.pdf)
