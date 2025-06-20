@@ -3,14 +3,15 @@ Transcriptomics analyse in R van eiwit-gerelateerde genexpressie in reumatoïde 
 
 <figure style="text-align: center;">
   <img src="afbeelding_voorblad/normal_vs_reuma.png" alt="Afbeelding voorblad" width="800" style="margin: auto; display: block;">
-  <figcaption style="font-size: 0.7em; margin-top: 4px;">(Ding et al., 2023)</figcaption>
 </figure>
+
+[(Ding. et al., 2023)](bronnen/ding_etal_2023.pdf)
 
 
 
 
 # Introductie
-Reumatoïde artritis (RA) is een chronische auto-immuun ontstekingsziekte en brengt schade en functieverlies toe aan de gewrichten. De ziekte kan zich ook extra-articulair manifesteren, waarbij er aantasting op treed aan de huid, ogen, hart, longen, nieren, zenuwstelsel en maagdarmstelsel (Radu & Bungau, 2021). RA komt wereldwijd voor bij 1-2% van de bevolking, en wordt bij vrouwen twee tot drie keer vaker aan getroffen dan in mannen [(Kang et al., 2022)](bronnen/kang_etal_2022.pdf). RA ontwikkeld zich in het begin met aspecifieke symptomen die kunnen overlappen met andere ziekten, dit maakt het lastig de aandoening in een vroeg stadium vast te stellen. Het niet behandelen van de ziekte leidt tot een verhoogd functieverlies en mortaliteit (Chauhan., et al). Verschillende medicijnen worden toegepast om de ziekte onder controle te houden en richten zich op ontstekingsmediatoren zoals tumornecrosefactor (TNF)-α, interleukine (IL)-6, en B-cellen. Deze behandelingen zijn niet voor iedere RA patiënt effectief, maar leiden wel tot nadelige bijwerkingen (Wang et al., 2024). Er is meer onderzoek nodig naar het identificeren van RA in patiënten en betere behandeling met geneesmiddelen. In dit onderzoek wordt een transcriptomics analyse uitgevoerd op RNA- sequence gegevens van RA patiënten. Hiermee wordt het genexpressie profiel van RA patiënten in kaart gebracht om
+Reumatoïde artritis (RA) is een chronische auto-immuun ontstekingsziekte en brengt schade en functieverlies toe aan de gewrichten. De ziekte kan zich ook extra-articulair manifesteren, waarbij er aantasting op treed aan de huid, ogen, hart, longen, nieren, zenuwstelsel en maagdarmstelsel [(Radu & Bungau, 2021)](bronnen/radu_etal_2021.pdf). RA komt wereldwijd voor bij 1-2% van de bevolking, en wordt bij vrouwen twee tot drie keer vaker aan getroffen dan in mannen [(Kang et al., 2022)](bronnen/kang_etal_2022.pdf). RA ontwikkeld zich in het begin met aspecifieke symptomen die kunnen overlappen met andere ziekten, dit maakt het lastig de aandoening in een vroeg stadium vast te stellen. Het niet behandelen van de ziekte leidt tot een verhoogd functieverlies en mortaliteit [(Chauhan., et al)](bronnen/chauchan_etal_2023.pdf). Verschillende medicijnen worden toegepast om de ziekte onder controle te houden en richten zich op ontstekingsmediatoren zoals tumornecrosefactor (TNF)-α, interleukine (IL)-6, en B-cellen. Deze behandelingen zijn niet voor iedere RA patiënt effectief, maar leiden wel tot nadelige bijwerkingen [(Wang et al., 2024)](bronnen/wang_etal_2024.pdf). Er is meer onderzoek nodig naar het identificeren van RA in patiënten en betere behandeling met geneesmiddelen. In dit onderzoek wordt een transcriptomics analyse uitgevoerd op RNA- sequence gegevens van RA patiënten. Hiermee wordt het genexpressie profiel van RA patiënten in kaart gebracht om
 biomarkers optesporen, en om mogelijk bij te dragen aan een beter begrip van potentiële behandelmogelijkheden, cel regulatie en de regulerende netwerken in de ontwikkeling van RA.
 
 bronnen (via pdf, of hyperlink) 
@@ -18,7 +19,7 @@ bronnen (via pdf, of hyperlink)
 # Methode
 **Synoviale weefselmonsters**
 
-De RNA-sequnce gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek (Platzer et al., 2019). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
+De RNA-sequence gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek [(Platzer et al., 2019)](bronnen/platzer_etal_2019.pdf). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
 
 **Data analyse**
 
@@ -29,24 +30,6 @@ Toevoegen plaatje workflow
 # Resultaten 
 **Gene Ontology (GO)**
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). 
-
-<figure style="text-align: left;">
-  <img src="resultaten/Top5_GOtermen.png" alt="Top 5 GO-termen verlaagde en verhoogde expressie uitgezet in een barplot. X-as weergeeft de -10log (p.adjust), Y-as de GO-teremen" width="600">
-  <figcaption style="font-size: 0.7em; margin-top: 4px;"> Top 5 GO-termen met verhoogde en verlaagde expressie in genen uitgezet in een staafdiagram. Op de x-as het aantal genen per GO-termen. P. ajdust aangegeven met kleuren.  </figcaption>
-</figure>
-
-Keuze maken tussen plaatjes 
-<p align ="left">
-<img src = "resultaten/top_5GOtermen_ratio.png" alt = "hsa04660_pathview"
-width = "600"/>
-</p>
-
-<p align ="left">
-<img src = "resultaten/hsa04660_pathview.png" alt = "hsa04660_pathview"
-width = "600"/>
-</p>
-
-
 
 # conclusie 
 Benoemen meest verijkt genen in GO-term
