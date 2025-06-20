@@ -25,12 +25,15 @@ Toevoegen plaatje workflow
 
 # Resultaten 
 **DESeq analyse**
+
 Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in de volcanoplot. Pathways waarin de meeste genen uit DESeq analyse voorkwamen, te zien in de dotplot. 
 
 **NF-kappa B signaling pathway**
+
 De genen uit de NF-kappa B signaling pathway werden gevisualiseerd in een signaalroutekaart, te zien in kaart NF-kappa B signaling pathway. 
 
 **Gene Ontology**
+
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). 
 
 # conclusie 
