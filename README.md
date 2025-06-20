@@ -35,19 +35,19 @@ Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in de vol
 |------|-----------|---------------------|
 | 1    | ANKRD30BL | Mogelijk betrokken bij signaaltransductie en celprocessen [(Almeida. et al., 2020)](bronnen/Almeida_etal_2020.pdf) |
 | 2    | MT-ND6    | Onderdeel van mitochondriaal complex I, essentieel voor energieproductie [(Wright. et al., 2021)](bronnen/Wright_etal_2021.pdf). |
-| 3    | ZNF598    | Speelt een rol in kwaliteitscontrole van ribosomen [(Sundaramoorthy. et al., 2017)](Sundaramoorthy_etal_2017) |
-| 4    | CROCC     | Belangrijk voor cohesie van het centrosoom tijdens celdeling [(Criscitiello. et al., 2020)](Criscitiello_etal_2020). |
-| 5    | IKBKG     | Mogelijke activator van activation process of NF-κB signaling [(Wu. et al., 2021)](Wu_etal_2021). |
+| 3    | ZNF598    | Speelt een rol in kwaliteitscontrole van ribosomen [(Sundaramoorthy. et al., 2017)](Sundaramoorthy_etal_2017.pdf) |
+| 4    | CROCC     | Belangrijk voor cohesie van het centrosoom tijdens celdeling [(Criscitiello. et al., 2020)](Criscitiello_etal_2020.pdf). |
+| 5    | IKBKG     | Mogelijke activator van activation process of NF-κB signaling [(Wu. et al., 2021)](Wu_etal_2021.pdf). |
 
 De pathways waarin de meeste genen uit DESeq analyse voorkwamen zijn te zien in de dotplot. Op de y-as de verrijkte biologische pathways en op de y-as de genratio. NF-kappa B signaling pathway werd als meest belangrijke pathway geselecteerd, op basis van een hoge gen telling, hoge fold enrichment en een lage p.adjust en p-value.
 
 **NF-kappa B signaling pathway**
 
-De genen uit de NF-kappa B signaling pathway werden gevisualiseerd in een signaalroutekaart, te zien in de kaart. Genen met verhoogde expressie in rood weergegeven en verlaagde expressie in groen. Een verhoogde expressie van de genen RELA (p65), NFKB1 (p50) en IKBKG (NEMO) was aanwezig in de NF-kappa B signaling pathway. In de literatuur is bekend dat een hoge expressie van deze genen worden aangetroffen in RA patienten [(Nejatbakhsh. et al., 2020)](Nejatbakhsh_etal_2020).
+De genen uit de NF-kappa B signaling pathway werden gevisualiseerd in een signaalroutekaart, te zien in de kaart. Genen met verhoogde expressie in rood weergegeven en verlaagde expressie in groen. Een verhoogde expressie van de genen RELA (p65), NFKB1 (p50) en IKBKG (NEMO) was aanwezig in de NF-kappa B signaling pathway. In de literatuur is bekend dat een hoge expressie van deze genen worden aangetroffen in RA patienten [(Nejatbakhsh. et al., 2020)](Nejatbakhsh_etal_2020.pdf).
 
 **Gene Ontology**
 
-De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de barplot. GO term immune response-regulating cell surface receptor signaling pathway bleek het meest verrijkt te zijn met een verhoogde expressie van genen. Literatuur toont aan dat CD4+, T-cellen en pathogene B-cellen autoreactief reageren bij RA patiënten (Jang. et al., 2022). Verlaagde expressie van genen werd aangetroffen in de GO-term pattern specification process. Literatuur toont ook aan dat RA invloed heeft op signaalroutes afhankelijke  processen voor het vormen van hyperplastisch synovium, kraakbeenschade en boterosie [(Guo. et al., 2018)](Guo_etal_2018).
+De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de barplot. GO term immune response-regulating cell surface receptor signaling pathway bleek het meest verrijkt te zijn met een verhoogde expressie van genen. Literatuur toont aan dat CD4+, T-cellen en pathogene B-cellen autoreactief reageren bij RA patiënten (Jang. et al., 2022). Verlaagde expressie van genen werd aangetroffen in de GO-term pattern specification process. Literatuur toont ook aan dat RA invloed heeft op signaalroutes afhankelijke  processen voor het vormen van hyperplastisch synovium, kraakbeenschade en boterosie [(Guo. et al., 2018)](Guo_etal_2018.pdf).
 
 # conclusie 
 Uit dit onderzoek blijkt dat er een aanwezigheid is van significante veranderingen in genexpressie bij reumatoïde artritis (RA) , zoals bij ontstekingsroutes zoals de NF-kappa B signaling pathway. De GO-enrichment analyse toonde een verlaagde genexpressie binnen de pattern specification process pathway. De expressie van significante genen zoals IKBKG, RELA en NFKB1 kan mogelijk gebruikt worden als potentiële bio markers of als doel voor geneesmiddelen.
