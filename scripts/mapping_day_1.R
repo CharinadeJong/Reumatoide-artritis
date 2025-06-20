@@ -9,8 +9,6 @@ library(Rsubread)
 
 unzip("C:/Users/dejon/OneDrive - NHL Stenden/Transcriptomics J2P4/ncbi_dataset unzip.zip/ncbi_dataset/data/GCF_000005845.2", exdir = "refgene")
 
-
-
 buildindex(
   basename = 'ref_Human',
   reference = "Homo_sapiens.GRCh38.dna.toplevel.fa",
