@@ -19,15 +19,22 @@ De RNA-sequence gegevens van de synovium biopten werden verkregen uit eerder uit
 
 **Data analyse**
 
-Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom Homo_sapiens.GRCh38.114 (ensemble) met behulp van de align() functie uit de `Rsubread (V2.22.1)` package, te zien in [script_mappen](scripts/mapping_day_1.R). Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de `DESeq2 (V1.48.1)` package, te zien in [script_DESeqanalyse](scripts/Analyse_en_statistiek_day_3.R). Significante genen uit DESeq analyse werden gevisualiseerd met een volcanoplot, met behulp van de package `EnhancedVolcano (V1.26.0)`  Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. Gene Ontology (GO)-enrichment analyse werd vervolgens uitgevoerd met het package `clusterProfiler (V4.16.0)`, `org.Hs.eg.db (V3.21.0)`, `enrichplot (V1.28.1)` en onderscheid gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 GO-termen werden gevisualiseerd met de package `ggplot2 (V3.5.2)`, te zien in [script_GO_analyse](scripts/GO_analysis_script.R). Om inzicht te krijgen in de pathway van de meest verijkte GO-term werd er  een KEGG-analyse uitgevoerd met de package `KEGGREST (V1.48.0)`, te zien in [script_KEGG_analyse](scripts/Analyse_en_statistiek_day_3.R). Om de KEGG-pathways te identificeren waarin de genen uit de GO-term het meest verrijkt zijn werd er een DAVID analyse uitgevoerd, met behulp van de DAVID bioinformatic tool van NIH.
+Data analyse van de gegevens werd uitgevoerd in R studio. Reads zijn aan de hand van kwaliteit controles getrimd en vervolgens gemapt tegen het humane referentiegenoom Homo_sapiens.GRCh38.114 (ensemble) met behulp van de align() functie uit de `Rsubread (V2.22.1)` package, te zien in [script_mappen](scripts/mapping_day_1.R). Genexpressie-kwantificatie werd uitgevoerd met featureCounts functie uit de Rsubread package, resulterend in een gen-telling matrix. Significant verschillen in genexpressie werden geanalyseerd met de `DESeq2 (V1.48.1)` package, te zien in [script_DESeqanalyse](scripts/Analyse_en_statistiek_day_3.R). Significante genen uit DESeq analyse werden gevisualiseerd met een volcanoplot, met behulp van de package `EnhancedVolcano (V1.26.0)`.  Om het aantal fout-positieve resultaten te beperken werden de p-waardes (FDR), gecorrigeerd met de Benjamini-Hochberg methode. KEGG enrichment analyse werd uitgevoerd op de DESeq resultaten om de meest verijkte pathway te identificeren. Om inzicht te krijgen in de genen van de meest verijkte pathway werd er een KEGG-analyse uitgevoerd met de package `KEGGREST (V1.48.0)`, te zien in [script_KEGG_analyse](scripts/Analyse_en_statistiek_day_3.R).  genen Gene Ontology (GO)-enrichment analyse werd uitgevoerd om inzixht te krijgen in de meest verijkte biologische proecces, met de packages `clusterProfiler (V4.16.0)`, `org.Hs.eg.db (V3.21.0)`, `enrichplot (V1.28.1)`. Onderscheid werd gemaakt tussen verlaagde en verhoogde genexpressie met een log2 fold change drempel van 0.5 en -0.5. De top 5 verhoogde en verlaagde GO-termen werden gevisualiseerd met de package `ggplot2 (V3.5.2)`, te zien in [script_GO_analyse](scripts/GO_analysis_script.R). 
 
 Toevoegen plaatje workflow
 
 # Resultaten 
+**DESeq analyse**
+Significante genen uit de DESeq analyse werden gevisualiseerd, te zien in de volcanoplot. Pathways waarin de meeste genen uit DESeq analyse voorkwamen, te zien in de dotplot. 
+
+**NF-kappa B signaling pathway**
+De genen uit de NF-kappa B signaling pathway werden gevisualiseerd in een signaalroutekaart, te zien in kaart NF-kappa B signaling pathway. 
+
 **Gene Ontology**
 De top 5 verrijkte GO-termen voor verhoogde en verlaagde genexpressie zijn weergegeven in de [barplot](resultaten/Top5_GOtermen.png). 
 
 # conclusie 
+Benomen genen KEGG pathway
 Benoemen meest verijkt genen in GO-term
 
 Voor de resultaten van je eigen onderzoek, die je in het verleden hebt uitgevoerd, gebruik je de onvoltooid verleden tijd. 
