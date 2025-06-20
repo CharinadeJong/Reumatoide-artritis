@@ -18,7 +18,7 @@ bronnen (via pdf, of hyperlink)
 # Methode
 **Synoviale weefselmonsters**
 
-De RNA-sequnce gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek (Platzer et al., 2019). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
+De RNA-sequence gegevens van de synovium biopten werden verkregen uit eerder uitgevoerd onderzoek [(Platzer et al., 2019)](bronnen/platzer_etal_2019.pdf). In totaal werden 8 monsters verzameld, bestaande uit monsters van 4 ACPA positieve vrouwen met RA (gemiddelde leeftijd 59.8 ± 4.9) en monsters van 4 gezonde vrouwen (gemiddelde leeftijd 29.8 ± 11.1 ). 
 
 **Data analyse**
 
